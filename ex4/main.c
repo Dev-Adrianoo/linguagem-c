@@ -32,4 +32,6 @@ int main(){
     default:
       printf("Valor digitado invalido, Digite de 1 a 7.");
   }
+
+  return 0;
 }

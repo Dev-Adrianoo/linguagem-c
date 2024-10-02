@@ -8,4 +8,6 @@ int main(){
     printf("%d\n", contagem);
     contagem++;
   }
+  
+  return 0;
 }

@@ -10,4 +10,6 @@ int main(){
     } else {
       printf("Reprovado(a)!\n");
     }
+
+    return 0;
 }
