@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+  
   char nome[50];
   float nota1,nota2,media;
 
