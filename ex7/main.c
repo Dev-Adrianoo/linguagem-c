@@ -18,5 +18,19 @@ int main(){
 
   printf("a media do aluno : %.2f\n", media);
 
+  if(media >= 8){
+
+    printf("Aprovado! com a media %.2f\n", media);
+
+  }else if(media >= 6 && media < 8){
+
+    printf("Recuperação! com a media: %.2f\n", media);
+
+  }else {
+
+    printf("Reprovado! com a media: %.2f\n", media);
+
+  }
+
   return 0;
 }
