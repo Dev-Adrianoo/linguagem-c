@@ -24,7 +24,7 @@ int main(){
 
       if(tempo < menorTempo){
     menorTempo = tempo;
-  }
+    }
   }
 
   printf("O recorde da prova foi de %d segundos, ", menorTempo);
