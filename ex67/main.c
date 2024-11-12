@@ -164,19 +164,7 @@ int main()
         printf("%s", resultado[i].descricao2);
         printf("---------------------------------");
       }
-      // voces estao de parabens!!!
       break;
-      /* case 5:
-        printf("\n---- Listar Todos os Pacientes ----\n");
-        for (int i = 0; i < quantidadePaciente; i++)
-        {
-          printf("\n---- Paciente %d ----", i + 1);
-          printf("\nNome do paciente: %s\n", paciente[i].nome);
-          printf("Idade: %d\n", paciente[i].idade);
-          printf("Codigo Paciente: %d\n", paciente[i].codPaciente);
-          printf("Tipo de exame: %s\n%s\n%s\n", exame[i].tipo, exame[i+1].tipo,exame[i+2].tipo);
-          printf("Descricao: %s\n%s\n%s", resultado[i].descricao2, resultado[i+1].descricao2, resultado[i+2].descricao2);
-          printf("\n----------------------------------\n");*/
     case 5:
 
       printf("\n---- Listar Todos os Pacientes ----\n");
