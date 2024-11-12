@@ -5,7 +5,7 @@
 
     1. Cadastrar Aluno FEITO
     2. Listar alunos FEITO
-    3. Exibir aluno com maior mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dia FEITO
+    3. Exibir aluno com maior media FEITO
     4. Exibir aluno mais velho
     5. Sair
 
