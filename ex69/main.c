@@ -1,13 +1,30 @@
+/*
+    Escreva um programa que calcule a area de um quadrado.
+*/
+
 #include <stdio.h>
+
+void entradaDados(float *pLado){
+    printf("Informe a medida do lado: ");
+    scanf("%f", pLado);
+
+}
+
+void calcularArea(float *pArea){
+    float lado;
+    entradaDados(&lado);
+
+    *pArea = lado * lado;
+}
+
 
 int main(){
 
-    int vetor[5];
+    float area;
 
-    for(int i = 0; i < 5; i++){
-        printf("Endereco da variável no indice &d = %p\n", i ,&vetor[i]);
-        scanf("%d", &vetor[i]);
-    }
+    calcularArea(&area);
+
+    printf("Area = %.2f", area);
 
     return 0;
 }
