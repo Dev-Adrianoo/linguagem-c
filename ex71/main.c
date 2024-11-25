@@ -45,13 +45,13 @@ typedef struct
 
 typedef struct
 {
-    Cliente *pointerCliente;
+    Cliente *pointerCliente; 
     Produto *pointerProduto;
     int quantidade;
     float valorTotal;
 } Vendas;
 
-void cadastrarCliente(Cliente *pointerCliente, int clienteQNTD)
+void cadastrarCliente(Cliente *pointerCliente, int clienteQNTD) 
 {
     pointerCliente->codigoCliente = clienteQNTD + 1;
 
@@ -86,7 +86,7 @@ void cadastrarProduto(Produto *pointerProduto, int produtoQNTD)
     scanf("%f", &pointerProduto->valorProduto);
     getchar();
 
-    printf("----- QUANTIDADE PRODUTO ATUAL %d -----\n", ++pointerProduto->qtdProduto);
+    // printf("----- QUANTIDADE PRODUTO ATUAL %d -----\n", ++pointerProduto->qtdProduto);
 }
 
 Produto *buscarProdutoCodigo(Produto produtos[], int produtoQNTD, int codigo)
